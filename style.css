@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #444;
   background-color: #f3f3f3;
   height: 100vh;
@@ -297,4 +297,26 @@ h2 {
 }
 .hidden {
   visibility: hidden;
+}
+/* Media Quries */
+@media (max-width: 1200px) {
+  html {
+    font-size: 65%;
+  }
+}
+@media (max-width: 900px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 40%;
+  }
+}
+@media (max-width: 600px) {
+  body {
+    padding: 4rem 0;
+  }
 }
